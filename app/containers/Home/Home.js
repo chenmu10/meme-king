@@ -86,7 +86,7 @@ class Home extends Component {
     render() {
 
         const { isLoggedIn, signOut } = this.props
-
+       
         return (
             <div className="home">
 
