@@ -10,7 +10,7 @@ import ActivityIndicator from 'components/ActivityIndicator/ActivityIndicator';
 addStyle(BootstrapButton, 'brand');
 addStyle(BootstrapButton, 'brand-gray-border');
 
-const Button =  ({ onClick, className, children, isLoading, ...rest }) => {
+const Button = ({ onClick, className, children, isLoading, ...rest }) => {
 
     return (
         <BootstrapButton className={classNames("box-cta-button", className)} onClick={onClick} {...rest}>
